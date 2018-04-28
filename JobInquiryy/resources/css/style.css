@@ -1,0 +1,99 @@
+#main-header .nav {
+	margin-top: 15px;
+	float: left;
+}
+#main-header{
+	color: #ffffff;
+	background-color: rgba(0, 0, 0, 0.2);
+	position: fixed;
+	width: 100%;
+	height: 10%;
+	z-index: 100;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#section6{
+	padding-top: 70px;
+}
+#section5{
+	padding-top: 70px;
+}
+#section4{
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+.image-black {
+	width: 100%;
+	margin: 10px;
+}
+.image-block {
+	width: 20%;
+	margin: 15px;
+	color: #666699;
+}
+.nav a{8
+	color: #ffffff;
+	position: fixed;
+}
+.nav a:hover{
+	color: #000000;
+	background: transparent; !important;
+}
+#right{
+	color: #adad85;
+	text-align: center;
+	padding-bottom: 5px;
+}
+html,body {
+	margin: 0;
+	padding: 0;
+}
+
+@keyframes banner {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}	
+	70% {
+		left: -200%;
+	}	
+	75% {
+		left: -300%;
+	}	
+	85% {
+		left: -300%;
+	}	
+	90% {
+		left: -400%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+	#banner {
+		overflow: hidden;
+	}	
+	#banner figure img{
+		width: 20%;
+		float: left;
+	}
+	#banner figure {
+		position: relative;
+		width: 500%;
+		margin: 10;
+		left: 0;
+		text-align: left;
+		font-size: 0;
+		animation: 20s banner infinite;
+
+	}

@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Job Inquiry</title>
+<link rel="shortcut icon" type="image/x-icon" href="herbalimages/11.jpg">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#b1").click(function(){
+        $("#div1").fadeToggle("slow");
+        $("#div1-2").fadeToggle(3000);
+        
+    });
+});
+$(document).ready(function(){
+    $("#b2").click(function(){
+        $("#div2").fadeToggle("slow");
+    });
+});
+$(document).ready(function(){
+    $("#b3").click(function(){
+        $("#div3").fadeToggle("slow");
+    });
+});
+$(document).ready(function(){
+    $("#b4").click(function(){
+        $("#div4").fadeToggle("slow");
+    });
+});
+$(document).ready(function(){
+    $("#b5").click(function(){
+        $("#div5").fadeToggle("slow");
+    });
+});
+$(document).ready(function(){
+    $("#b6").click(function(){
+        $("#div6").fadeToggle("slow");
+    });
+});
+$(document).ready(function(){
+    $("#b7").click(function(){
+        $("#div7").fadeToggle("slow");
+    });
+});
+$(document).ready(function(){
+    $("#b8").click(function(){
+        $("#div8").fadeToggle("slow");
+    });
+});
+</script>
+<style type="text/css">
+.navbar-inverse{
+    border-color:black;
+  color: black;
+  text-decoration: bold;
+background-color: rgba(0,0,0,.0001)
+}
+	h4{
+		 text-align: center;
+		 color: black;
+	}
+	#b1{
+    height: 50px;
+    background-color: #B0C4DE;
+    color: black;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	#b2{
+		 height: 50px;
+    background-color: #B0C4DE;
+    color: black;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+
+	}
+	#b3{
+		 height: 50px;
+    background-color: #B0C4DE;
+    color: black;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+
+	}
+	#b4{
+		 height: 50px;
+    background-color: #B0C4DE;
+    color: black;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+
+	}
+	#b5{
+		 height: 50px;
+    background-color: #B0C4DE;
+    color: black;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+
+	}
+	#b6{
+		 height: 50px;
+    background-color: #B0C4DE;
+    color: black;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+
+	}
+	#b7{
+		 height: 50px;
+    background-color: #B0C4DE;
+    color: black;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+
+	}
+	#b8{
+		 height: 50px;
+    background-color: #B0C4DE;
+    color: black;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+
+	}
+
+	#div1{
+    background-color: #B0C4DE;
+    color: black;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: none;
+	}
+	#div1-2{
+    background-color: #B0C4DE;
+    color: black;
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: none;
+	}
+	#div2{
+    background-color: #B0C4DE;
+    color: black;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: none;
+	}
+	#div3{
+    background-color: #B0C4DE;
+    color: black;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: none;
+	}
+	#div4{
+    background-color: #B0C4DE;
+    color: black;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: none;
+	}
+	#div5{
+    background-color: #B0C4DE;
+    color: black;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: none;
+	}
+	#div6{
+    background-color: #B0C4DE;
+    color: black;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: none;
+	}
+	#div7{
+    background-color: #B0C4DE;
+    color: black;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: none;
+	}
+	#div8{
+    background-color: #B0C4DE;
+    color: black;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: none;
+	}
+	body{
+    background-image: url("jobimages/J12.jpg");
+    background-repeat: no-repeat;
+    background-position: center; top;
+    background-attachment: fixed;
+
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+<div class="container-fluid" id="navs">
+<ul class="nav nav-tabs nav-justified">
+<li><a href="JobInquiry.html" id="tx">Home</a></li>
+<li><a href="Jobs.html" id="tx">Jobs</a></li>
+<li><a href="#" id="tx">Contact Us</a></li>
+<li><a href="About.html" id="tx">About Us</a></li>
+<li><a href="#" id="tx">Login</a></li>
+</ul>
+</div>
+</nav>
+
+<div class="container">
+<center><button id="b1"><strong>Administrative Assistant</strong></button></center>
+	<div class="well" id="div1">
+
+<h4>Administrative Assistant</h4>
+<h5><strong>Company Address</strong></h5>
+<p>City Homes Builder and Development, Inc. Imus</p>
+
+<p><strong>Job requirements:</strong></p>
+<p><ul style="list-style-type: disc">
+	<li>Graduate of any 4-year business course</li>
+	<li>Withh good communication skills, both oral and written.</li>
+	<li>With excellent customer service.</li>
+	<li>Willing to be assigned in Cavite Area.</li>
+	<li>Fresh graduates are welcome to apply.</li>
+</ul></p>
+<p>Job type: Full Time</p>
+<h5><strong>Job Description</strong></h5>
+<p>Admin Assistant Primary Responsibilities: Performs general clerical duties to include but not limited to: photocopying, faxing, mail distribution and filing. Coordinates and maintains records for staff office space, phones, company credit cards and office keys. Creates and modifies various documents using Microsoft Office.</p>
+<h5><strong>Salary</strong></h5>
+<p>20,000-25,000</p>
+<h5><strong>Company contacts</strong></h5>
+<p>Email: cityhomesbuilder@yahoo.com</p>
+<p>Contact no. 999-1212</p>
+
+	</div>
+	<div class="well" id="div1-2">
+
+<h4>Administrative Assistant</h4>
+<h5><strong>Company Address</strong></h5>
+<p>Ayala Automotive-Group - Imus</p>
+
+<p><strong>Job qualifications:</strong></p>
+<p><ul style="list-style-type: disc">
+	<li>Candidate must pocess Bachelors Degree in any course.</li>
+	<li>With atleast 1 year relevant is a must.</li>
+	<li>Profecient in both verbal and written communication.</li>
+	<li>Computer literate (MS Office Applications).</li>
+	<li>With excellent Time management and organizational skills.</li>
+</ul></p>
+<p>Job type: Full Time</p>
+<h5><strong>Job Description</strong></h5>
+<p>Admin Assistant Primary Responsibilities: Performs general clerical duties to include but not limited to: photocopying, faxing, mail distribution and filing. Coordinates and maintains records for staff office space, phones, company credit cards and office keys. Creates and modifies various documents using Microsoft Office.</p>
+<h5><strong>Salary</strong></h5>
+<p>18,000-25,000</p>
+<h5><strong>Company contacts</strong></h5>
+<p>Interested applicants may send their updated resume to:</p>
+<p>Email: recruitment@isuzuautodealer.com.ph</p>
+<p>Contact no. 999-1212</p>
+	</div>
+	<center><button id="b2"><strong>Service Crew</strong></button></center>
+	<div class="well" id="div2">
+
+<h4>Red ribbon service crew</h4>
+<h5><strong>Company Address</strong></h5>
+<p>Staff search cooperative - Imus</p>
+
+<p><strong>Job requirements:</strong></p>
+<p><ul style="list-style-type: disc">
+	<li>At least college level</li>
+	<li>19 years old and above</li>
+	<li>With at least 6 months working experience as service crew(Any food chain).</li>
+	<li>Willing to be assigned in Imus Cavite.</li>
+</ul></p>
+<p>Job type: Full Time</p>
+<h5><strong>Job Description</strong></h5>
+<p>The duties and responsibilities of those working as bartenders among the food service crew members include preparing mixed drinks and serving of wine and beer. ... His/her tasks can also revolve around food preparation, cashier duties, dish cleaning, and food and drink serving.</p>
+<h5><strong>Salary</strong></h5>
+<p>12,000-18,000</p>
+<h5><strong>Company contacts</strong></h5>
+<p>Email: searchcooperative@yahoo.com</p>
+<p>Contact no. 999-1212</p>
+	</div>
+	<center><button id="b3"><strong>Production Staff</strong></button></center>
+	<div class="well" id="div3">
+
+<h4>Production Staff</h4>
+<h5><strong>Company Address</strong></h5>
+<p>Fastrack Multi-Purpose Cooperative- Silang</p>
+
+<p><strong>Job requirements:</strong></p>
+<p><ul style="list-style-type: disc">
+	<li>Male</li>
+	<li>College level at least high school graduate.</li>
+	<li>With or without experience.</li>
+	<li>Willing to be assigned in Silang Cavite.</li>
+</ul></p>
+<p>Job type: Full Time</p>
+<h5><strong>Job Description</strong></h5>
+<p>A production staff, also known as a machineoperator, uses equipment to assist with manufacturing, packaging, and other steps along aproduction line. While the exact duties may vary from company to company, a production operatormay be expected to handle heavy machinery such as forklifts.</p>
+<h5><strong>Salary</strong></h5>
+<p>12,000-18,000</p>
+<h5><strong>Company contacts</strong></h5>
+<p>Email: multipurposecooperative@yahoo.com</p>
+<p>Contact no. 999-1212</p>
+
+	</div>
+	<center><button id="b4"><strong>Warehouse Clerk</strong></button></center>
+	<div class="well" id="div4">
+
+<h4>Warehouse Clerk</h4>
+<h5><strong>Company Address</strong></h5>
+<p>Alfamart Trading Philippines - Imus</p>
+
+<p><strong>Job requirements:</strong></p>
+<p><ul style="list-style-type: disc">
+	<li>Must be a Male</li>
+	<li>At least 2 years college level.</li>
+	<li>Must have at least 6 months experience in Warehouse/Logistics.</li>
+	<li>Must be willing to work in Imus Cavite.</li>
+</ul></p>
+<p>Job type: Full Time</p>
+<h5><strong>Job Description</strong></h5>
+<p>Daily duties performed by warehouse clerks include taking customer documentation to determine items required, assembling custom orders, aiding in processing orders, sorting merchandise, maintaining supplies, verifying inventory, and processing return materials authorizations (RMAs).</p>
+<h5><strong>Salary</strong></h5>
+<p>12,000-18,000</p>
+<h5><strong>Company contacts</strong></h5>
+<p>Interested applicants may apply in person in Alfamart DC, back of SM Hypermarket, Anabu 1,Imus, Cavite.(Monday,Wednesday,Thursday; 8:00am-10:00am). Bring resume and valid ID</p>
+<p>Contact no. 999-1212</p>
+</div>
+	<center><button id="b5"><strong>Manufacturing Product Assistant</strong></button></center>
+	<div class="well" id="div5">
+
+<h4>Manufactring Product Assistant</h4>
+<h5><strong>Company Address</strong></h5>
+<p>818 East Asia Group Corporation - Silang</p>
+
+<p><strong>Job requirements:</strong></p>
+<p><ul style="list-style-type: disc">
+	<li>Graduate of any 4 years course</li>
+	<li>Minimum of 3 years exoerience.</li>
+	<li>Computer literate.</li>
+	<li>Can write and speak english fluently</li>
+</ul></p>
+<p>Job type: Full Time</p>
+<h5><strong>Job Description</strong></h5>
+<p>A production assistant position may be available with a manufacturing or engineering firm. A production assistant is responsible for assisting the manufacturing supervisor and technician in various technical and administrative tasks. Specific duties of a production assistant include assisting manufacturing supervision with shop loading, monitoring program schedules, assisting project managers and shop supervisors with work kit preparation, handling day to day administrative tasks in the division, acting as liaison between production control and manufacturing, ensuring that all the raw materials are stocked in appropriate quantities, availing the workers and technicians with required machineries and equipments and performing several other tasks as required. A production assistant typically reports to a production supervisor. 
+A production assistant should have a high school diploma. Prior experience working as a production assistant may be helpful. Excellent coordination skills and the ability to prioritize things is essential.
+</p>
+<h5><strong>Salary</strong></h5>
+<p>12,000-14,000</p>
+<h5><strong>Company contacts</strong></h5>
+<p>Email: eastasia@yahoo.com</p>
+<p>Contact no. 999-1212</p>
+
+	</div>
+	<center><button id="b6"><strong>Waiter/Waitresses</strong></button></center>
+	<div class="well" id="div6">
+
+<h4>Waiter/Waitresses</h4>
+<h5><strong>Company Address</strong></h5>
+<p>Amanah recruitment Group - Silang</p>
+
+<p><strong>Job requirements:</strong></p>
+<p><ul style="list-style-type: disc">
+<li>High School or equivalent.</li>
+	<li>With NCII.</li>
+	<li>With at least 6 months work experience.</li>
+	<li>Willing to be assigned in Silang Cavite.</li>
+</ul></p>
+<p>Job type: Full Time</p>
+<h5><strong>Job Description</strong></h5>
+<p>Most waiters and waitresses, also called servers, work in full-service restaurants. They greet customers, take food orders, bring food and drinks to the tables and take payment and make change. ... Some fine dining restaurants even require servers to prepare specialty food items at a customer's table.</p>
+<h5><strong>Salary</strong></h5>
+<p>12,000-18,000</p>
+<h5><strong>Company contacts</strong></h5>
+<p>Email: ghin8185@gmail.com</p>
+<p>Contact no. 09478655871</p>
+
+	</div>
+	<center><button id="b7"><strong>Warehouse Data Encoder</strong></button></center>
+	<div class="well" id="div7">
+
+<h4>Warehouse Data Encoder</h4>
+<h5><strong>Company Address</strong></h5>
+<p>Bonchon Chicken Philippines - Silang</p>
+
+<p><strong>Job requirements:</strong></p>
+<p><ul style="list-style-type: disc">
+	<li>Typing speed accuracy.</li>
+	<li>At least 2 years college level.</li>
+	<li>Attention to detail.</li>
+	<li>Must be willing to work in Silang Cavite.</li>
+</ul></p>
+<p>Job type: Full Time</p>
+<h5><strong>Job Description</strong></h5>
+<p>We are looking for a Data Entry Operator to update and maintain information on our company databases and computer systems. Data entry operatorresponsibilities include collecting and entering datain databases and maintaining accurate records of valuable company information.</p>
+<h5><strong>Salary</strong></h5>
+<p>15,000-18,000</p>
+<h5><strong>Company contacts</strong></h5>
+<p>Email : Bchick@yahoo.com</p>
+<p>Contact no. 999-1212</p>
+
+	</div>
+	<center><button id="b8"><strong>Frontline Associates</strong></button></center>
+	<div class="well" id="div8">
+
+<h4>Frontline Associates</h4>
+<h5><strong>Company Address</strong></h5>
+<p>E - Business services Inc. - Western Union - Dasmarinas</p>
+
+<p><strong>Job qualifications:</strong></p>
+<p><ul style="list-style-type: disc">
+	<li>Candidate must pocess Bachelors Degree in any course.</li>
+	<li>With atleast 1 year service and cash handling is a must.</li>
+	<li>Profecient in both verbal and written communication.</li>
+	<li>Computer literate (MS Office Applications).</li>
+</ul></p>
+<p>Job type: Full Time</p>
+<h5><strong>Job Description</strong></h5>
+<p>"Frontliner" is a general term used to describe the customer service employees who play a role in a typical sales and service organization. Retail sales and service employees are often referred to as a company's front-line workers because they usually have the most consistent, direct interaction with customers.</p>
+<h5><strong>Salary</strong></h5>
+<p>18,000-25,000</p>
+<h5><strong>Company contacts</strong></h5>
+<p>Interested applicants may send their updated resume to:</p>
+<p>Email: ebusiness.com.ph</p>
+<p>Contact no. 999-1212</p>
+
+	</div>
+<div class="container">                  
+  <ul class="pager">
+    <li><a href="Jobs.html" style="background-color: #B0C4DE; color:black"><strong>...Previous</strong></a></li>
+  </ul>
+</div>
+</body>
+</html>
